@@ -10,4 +10,4 @@ if (fs.existsSync('.env')) {
 
 export const ENVIRONMENT = process.env.NODE_ENV
 
-export const SESSION_SECRET = process.env.SESSION_SECRET
+export const GITHUB_HOOK_SECRET = process.env.GITHUB_HOOK_SECRET + ''
